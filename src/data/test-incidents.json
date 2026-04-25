@@ -1,0 +1,952 @@
+[
+  {
+    "id": "test-1",
+    "type": "theft",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "position": [
+      21.104699815356124,
+      79.09499965761287
+    ],
+    "latitude": 21.104699815356124,
+    "longitude": 79.09499965761287,
+    "description": "Pickpocketing in marketplace",
+    "severity": 2,
+    "date": "2026-03-31",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-03-31T06:31:25.926Z",
+    "isNew": false
+  },
+  {
+    "id": "test-2",
+    "type": "unsafe",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "position": [
+      19.055886148210984,
+      72.86075012990744
+    ],
+    "latitude": 19.055886148210984,
+    "longitude": 72.86075012990744,
+    "description": "Unsafe area due to lack of street lighting",
+    "severity": 2,
+    "date": "2026-04-19",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-19T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-3",
+    "type": "cyber",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "position": [
+      23.24743498774935,
+      77.44804109080845
+    ],
+    "latitude": 23.24743498774935,
+    "longitude": 77.44804109080845,
+    "description": "Revenge porn threats",
+    "severity": 3,
+    "date": "2026-04-20",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-20T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-4",
+    "type": "assault",
+    "city": "Surat",
+    "state": "Gujarat",
+    "position": [
+      21.13257998486159,
+      72.85592664475838
+    ],
+    "latitude": 21.13257998486159,
+    "longitude": 72.85592664475838,
+    "description": "Attempted assault near ATM",
+    "severity": 1,
+    "date": "2026-04-06",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-06T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-5",
+    "type": "theft",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "position": [
+      23.257345342698596,
+      77.4436108075
+    ],
+    "latitude": 23.257345342698596,
+    "longitude": 77.4436108075,
+    "description": "Phone snatching in crowded area",
+    "severity": 3,
+    "date": "2026-04-16",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-16T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-6",
+    "type": "theft",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "position": [
+      26.885704917251864,
+      75.78505050006297
+    ],
+    "latitude": 26.885704917251864,
+    "longitude": 75.78505050006297,
+    "description": "Chain snatching incident",
+    "severity": 1,
+    "date": "2026-04-24",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-24T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-7",
+    "type": "theft",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "position": [
+      12.965923714923646,
+      77.609706674147
+    ],
+    "latitude": 12.965923714923646,
+    "longitude": 77.609706674147,
+    "description": "Bag theft from public transportation",
+    "severity": 5,
+    "date": "2026-03-31",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-03-31T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-8",
+    "type": "threat",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "position": [
+      17.390170377429985,
+      78.49765661953721
+    ],
+    "latitude": 17.390170377429985,
+    "longitude": 78.49765661953721,
+    "description": "Threatening behavior near workplace",
+    "severity": 5,
+    "date": "2026-03-31",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-03-31T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-9",
+    "type": "stalking",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "position": [
+      13.052857498142926,
+      80.2354563508437
+    ],
+    "latitude": 13.052857498142926,
+    "longitude": 80.2354563508437,
+    "description": "Being watched from distance",
+    "severity": 4,
+    "date": "2026-04-19",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-19T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-10",
+    "type": "cyber",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "position": [
+      22.547887694516923,
+      88.34233734720584
+    ],
+    "latitude": 22.547887694516923,
+    "longitude": 88.34233734720584,
+    "description": "Digital harassment campaign",
+    "severity": 4,
+    "date": "2026-04-02",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-02T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-11",
+    "type": "cyber",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "position": [
+      12.951962021897522,
+      77.59623051730036
+    ],
+    "latitude": 12.951962021897522,
+    "longitude": 77.59623051730036,
+    "description": "Cyberstalking through social media",
+    "severity": 1,
+    "date": "2026-04-16",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-16T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-12",
+    "type": "harassment",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "position": [
+      22.736018841866535,
+      75.89608432129144
+    ],
+    "latitude": 22.736018841866535,
+    "longitude": 75.89608432129144,
+    "description": "Street harassment during evening walk",
+    "severity": 4,
+    "date": "2026-04-21",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-21T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-13",
+    "type": "suspicious",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "position": [
+      18.502593013993796,
+      73.86418335741877
+    ],
+    "latitude": 18.502593013993796,
+    "longitude": 73.86418335741877,
+    "description": "Unauthorized person in restricted area",
+    "severity": 2,
+    "date": "2026-04-13",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-13T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-14",
+    "type": "assault",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "position": [
+      27.191887826804713,
+      77.98417875358977
+    ],
+    "latitude": 27.191887826804713,
+    "longitude": 77.98417875358977,
+    "description": "Physical altercation in public space",
+    "severity": 5,
+    "date": "2026-04-02",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-02T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-15",
+    "type": "assault",
+    "city": "Delhi",
+    "state": "Delhi",
+    "position": [
+      28.592864226126174,
+      77.21682822905984
+    ],
+    "latitude": 28.592864226126174,
+    "longitude": 77.21682822905984,
+    "description": "Violent incident in crowded area",
+    "severity": 3,
+    "date": "2026-03-27",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-03-27T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-16",
+    "type": "theft",
+    "city": "Delhi",
+    "state": "Delhi",
+    "position": [
+      28.62828245021552,
+      77.24016246304554
+    ],
+    "latitude": 28.62828245021552,
+    "longitude": 77.24016246304554,
+    "description": "Phone snatching in crowded area",
+    "severity": 1,
+    "date": "2026-04-04",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-04T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-17",
+    "type": "harassment",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "position": [
+      18.51954788399859,
+      73.8204676110027
+    ],
+    "latitude": 18.51954788399859,
+    "longitude": 73.8204676110027,
+    "description": "Street harassment during evening walk",
+    "severity": 5,
+    "date": "2026-04-16",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-16T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-18",
+    "type": "threat",
+    "city": "Delhi",
+    "state": "Delhi",
+    "position": [
+      28.576933629162205,
+      77.20190322240666
+    ],
+    "latitude": 28.576933629162205,
+    "longitude": 77.20190322240666,
+    "description": "Threatening behavior near workplace",
+    "severity": 4,
+    "date": "2026-03-27",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-03-27T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-19",
+    "type": "cyber",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "position": [
+      19.072073945439104,
+      72.90961632081695
+    ],
+    "latitude": 19.072073945439104,
+    "longitude": 72.90961632081695,
+    "description": "Cyberstalking through social media",
+    "severity": 1,
+    "date": "2026-04-21",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-21T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-20",
+    "type": "stalking",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "position": [
+      26.83172107015937,
+      80.96000677054343
+    ],
+    "latitude": 26.83172107015937,
+    "longitude": 80.96000677054343,
+    "description": "Repeated sightings of same individual",
+    "severity": 4,
+    "date": "2026-04-15",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-15T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-21",
+    "type": "unsafe",
+    "city": "Delhi",
+    "state": "Delhi",
+    "position": [
+      28.582854107803932,
+      77.19744838972036
+    ],
+    "latitude": 28.582854107803932,
+    "longitude": 77.19744838972036,
+    "description": "Abandoned building attracting suspicious activity",
+    "severity": 4,
+    "date": "2026-04-17",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-17T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-22",
+    "type": "harassment",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "position": [
+      13.060756484254817,
+      80.28219334167483
+    ],
+    "latitude": 13.060756484254817,
+    "longitude": 80.28219334167483,
+    "description": "Verbal harassment near bus stop",
+    "severity": 3,
+    "date": "2026-04-14",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-14T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-23",
+    "type": "theft",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "position": [
+      22.729180569526786,
+      75.85281109312454
+    ],
+    "latitude": 22.729180569526786,
+    "longitude": 75.85281109312454,
+    "description": "Pickpocketing in marketplace",
+    "severity": 5,
+    "date": "2026-04-16",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-16T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-24",
+    "type": "theft",
+    "city": "Delhi",
+    "state": "Delhi",
+    "position": [
+      28.591360514424448,
+      77.17319969972768
+    ],
+    "latitude": 28.591360514424448,
+    "longitude": 77.17319969972768,
+    "description": "Bag theft from public transportation",
+    "severity": 2,
+    "date": "2026-04-18",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-18T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-25",
+    "type": "cyber",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "position": [
+      12.983187073082096,
+      77.60914928302098
+    ],
+    "latitude": 12.983187073082096,
+    "longitude": 77.60914928302098,
+    "description": "Cyberstalking through social media",
+    "severity": 4,
+    "date": "2026-04-18",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-18T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-26",
+    "type": "suspicious",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "position": [
+      13.064624162521318,
+      80.26828417665304
+    ],
+    "latitude": 13.064624162521318,
+    "longitude": 80.26828417665304,
+    "description": "Unauthorized person in restricted area",
+    "severity": 4,
+    "date": "2026-04-23",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-23T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-27",
+    "type": "assault",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "position": [
+      21.118383740855496,
+      79.07182312226152
+    ],
+    "latitude": 21.118383740855496,
+    "longitude": 79.07182312226152,
+    "description": "Physical altercation in public space",
+    "severity": 3,
+    "date": "2026-04-21",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-21T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-28",
+    "type": "stalking",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "position": [
+      19.0862442079685,
+      72.9093560902105
+    ],
+    "latitude": 19.0862442079685,
+    "longitude": 72.9093560902105,
+    "description": "Followed by unknown person for several blocks",
+    "severity": 4,
+    "date": "2026-04-07",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-07T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-29",
+    "type": "suspicious",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "position": [
+      22.708033022778128,
+      75.88225055504782
+    ],
+    "latitude": 22.708033022778128,
+    "longitude": 75.88225055504782,
+    "description": "Suspicious vehicle parked for extended time",
+    "severity": 2,
+    "date": "2026-04-17",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-17T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-30",
+    "type": "suspicious",
+    "city": "Delhi",
+    "state": "Delhi",
+    "position": [
+      28.60482817728623,
+      77.16252373139717
+    ],
+    "latitude": 28.60482817728623,
+    "longitude": 77.16252373139717,
+    "description": "Suspicious package left unattended",
+    "severity": 3,
+    "date": "2026-04-17",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-17T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-31",
+    "type": "threat",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "position": [
+      19.068463610229067,
+      72.90288408616408
+    ],
+    "latitude": 19.068463610229067,
+    "longitude": 72.90288408616408,
+    "description": "Threatening behavior near workplace",
+    "severity": 5,
+    "date": "2026-04-06",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-06T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-32",
+    "type": "stalking",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "position": [
+      12.99297019315224,
+      77.6030201279251
+    ],
+    "latitude": 12.99297019315224,
+    "longitude": 77.6030201279251,
+    "description": "Car following slowly through neighborhood",
+    "severity": 5,
+    "date": "2026-04-01",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-01T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-33",
+    "type": "stalking",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "position": [
+      17.377394638223453,
+      78.49950822058018
+    ],
+    "latitude": 17.377394638223453,
+    "longitude": 78.49950822058018,
+    "description": "Car following slowly through neighborhood",
+    "severity": 3,
+    "date": "2026-04-25",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-25T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-34",
+    "type": "threat",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "position": [
+      23.00224908748034,
+      72.60445402574273
+    ],
+    "latitude": 23.00224908748034,
+    "longitude": 72.60445402574273,
+    "description": "Menacing behavior in isolated area",
+    "severity": 2,
+    "date": "2026-04-06",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-06T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-35",
+    "type": "threat",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "position": [
+      13.086988885047889,
+      80.26004358200659
+    ],
+    "latitude": 13.086988885047889,
+    "longitude": 80.26004358200659,
+    "description": "Intimidation by group of individuals",
+    "severity": 4,
+    "date": "2026-04-04",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-04T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-36",
+    "type": "theft",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "position": [
+      26.840762701406913,
+      80.93329861573274
+    ],
+    "latitude": 26.840762701406913,
+    "longitude": 80.93329861573274,
+    "description": "Phone snatching in crowded area",
+    "severity": 5,
+    "date": "2026-04-15",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-15T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-37",
+    "type": "stalking",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "position": [
+      13.075083493406257,
+      80.25712394441152
+    ],
+    "latitude": 13.075083493406257,
+    "longitude": 80.25712394441152,
+    "description": "Car following slowly through neighborhood",
+    "severity": 3,
+    "date": "2026-04-21",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-21T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-38",
+    "type": "cyber",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "position": [
+      23.052978550561097,
+      72.54040410314164
+    ],
+    "latitude": 23.052978550561097,
+    "longitude": 72.54040410314164,
+    "description": "Online harassment and threats",
+    "severity": 3,
+    "date": "2026-04-05",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-05T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-39",
+    "type": "theft",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "position": [
+      18.50662521892018,
+      73.89262751146813
+    ],
+    "latitude": 18.50662521892018,
+    "longitude": 73.89262751146813,
+    "description": "Phone snatching in crowded area",
+    "severity": 3,
+    "date": "2026-03-30",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-03-30T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-40",
+    "type": "threat",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "position": [
+      26.85258216358039,
+      80.93487575890678
+    ],
+    "latitude": 26.85258216358039,
+    "longitude": 80.93487575890678,
+    "description": "Threatening behavior near workplace",
+    "severity": 2,
+    "date": "2026-04-01",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-01T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-41",
+    "type": "assault",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "position": [
+      21.107411016342333,
+      79.09215858609842
+    ],
+    "latitude": 21.107411016342333,
+    "longitude": 79.09215858609842,
+    "description": "Attempted assault near ATM",
+    "severity": 4,
+    "date": "2026-03-27",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-03-27T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-42",
+    "type": "stalking",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "position": [
+      23.259096628204237,
+      77.42260976317205
+    ],
+    "latitude": 23.259096628204237,
+    "longitude": 77.42260976317205,
+    "description": "Being watched from distance",
+    "severity": 3,
+    "date": "2026-04-07",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-07T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-43",
+    "type": "suspicious",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "position": [
+      27.17833628235872,
+      77.99712211217643
+    ],
+    "latitude": 27.17833628235872,
+    "longitude": 77.99712211217643,
+    "description": "Suspicious vehicle parked for extended time",
+    "severity": 3,
+    "date": "2026-03-31",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-03-31T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-44",
+    "type": "assault",
+    "city": "Surat",
+    "state": "Gujarat",
+    "position": [
+      21.142487025847817,
+      72.8220542231802
+    ],
+    "latitude": 21.142487025847817,
+    "longitude": 72.8220542231802,
+    "description": "Assault near transportation hub",
+    "severity": 4,
+    "date": "2026-04-07",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-07T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-45",
+    "type": "harassment",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "position": [
+      12.975396043947844,
+      77.56604520522556
+    ],
+    "latitude": 12.975396043947844,
+    "longitude": 77.56604520522556,
+    "description": "Unwanted advances in marketplace",
+    "severity": 4,
+    "date": "2026-04-13",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-13T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-46",
+    "type": "stalking",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "position": [
+      23.03155753411144,
+      72.5362768369516
+    ],
+    "latitude": 23.03155753411144,
+    "longitude": 72.5362768369516,
+    "description": "Repeated sightings of same individual",
+    "severity": 3,
+    "date": "2026-04-06",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-06T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-47",
+    "type": "stalking",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "position": [
+      18.47855147996247,
+      73.87413887984798
+    ],
+    "latitude": 18.47855147996247,
+    "longitude": 73.87413887984798,
+    "description": "Car following slowly through neighborhood",
+    "severity": 3,
+    "date": "2026-03-27",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-03-27T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-48",
+    "type": "assault",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "position": [
+      22.572450533354527,
+      88.40950223387847
+    ],
+    "latitude": 22.572450533354527,
+    "longitude": 88.40950223387847,
+    "description": "Physical altercation in public space",
+    "severity": 2,
+    "date": "2026-04-04",
+    "time": "12:01",
+    "verified": true,
+    "created_at": "2026-04-04T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-49",
+    "type": "harassment",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "position": [
+      13.098491331047155,
+      80.30633595481369
+    ],
+    "latitude": 13.098491331047155,
+    "longitude": 80.30633595481369,
+    "description": "Unwanted advances in marketplace",
+    "severity": 3,
+    "date": "2026-04-01",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-04-01T06:31:25.927Z",
+    "isNew": false
+  },
+  {
+    "id": "test-50",
+    "type": "unsafe",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "position": [
+      19.075691406715325,
+      72.83366495336621
+    ],
+    "latitude": 19.075691406715325,
+    "longitude": 72.83366495336621,
+    "description": "Poorly lit street with no security",
+    "severity": 3,
+    "date": "2026-03-31",
+    "time": "12:01",
+    "verified": false,
+    "created_at": "2026-03-31T06:31:25.927Z",
+    "isNew": false
+  }
+]
