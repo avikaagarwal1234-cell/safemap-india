@@ -47,10 +47,10 @@ const RecentActivity = ({ recentActivity, getTimeAgo }) => {
     <div className={`absolute top-4 right-4 z-[1000] transition-all duration-300 ${
       isCollapsed ? 'w-12' : 'w-80'
     }`}>
-      <div className="bg-black/80 backdrop-blur-sm rounded-lg shadow-lg border border-purple-light/30 overflow-hidden">
+      <div className="bg-gray-800 rounded-lg shadow-lg border border-gray-600 overflow-hidden">
         {/* Header */}
         <div 
-          className="flex items-center justify-between p-3 cursor-pointer hover:bg-black/60 transition-colors"
+          className="flex items-center justify-between p-3 cursor-pointer hover:bg-gray-700 transition-colors"
           onClick={() => setIsCollapsed(!isCollapsed)}
         >
           {!isCollapsed && (

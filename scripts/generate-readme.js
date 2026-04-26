@@ -1,4 +1,11 @@
-# ■■ SafeMap India
+import fs from 'fs'
+import { execSync } from 'child_process'
+
+const repoUrl = execSync('git config --get remote.origin.url').toString().trim()
+  .replace('git@github.com:', 'https://github.com/')
+  .replace('.git', '')
+
+const readme = `# ■■ SafeMap India
 
 > Anonymous Incident Reporting & Real-time Safety Mapping System for India
 
@@ -60,23 +67,23 @@ SafeMap India is a **100% anonymous** safety awareness platform that combines:
 - Git
 
 ### Installation
-```bash
-git clone https://github.com/avikaagarwal1234-cell/safemap-india.git
+\`\`\`bash
+git clone ${repoUrl}.git
 cd safemap-india
 npm install
-```
+\`\`\`
 
 ### Environment Setup
-Create `.env.local` in the root directory:
-```env
+Create \`.env.local\` in the root directory:
+\`\`\`env
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ADMIN_PASSWORD=safemapadmin2025
-```
+\`\`\`
 
 ### Database Setup
 Run this SQL in your Supabase SQL Editor:
-```sql
+\`\`\`sql
 CREATE TABLE incidents (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
@@ -110,24 +117,24 @@ CREATE POLICY "Anyone can view incidents" ON incidents FOR SELECT USING (true);
 CREATE POLICY "Anyone can view ncrb" ON ncrb_data FOR SELECT USING (true);
 
 ALTER PUBLICATION supabase_realtime ADD TABLE incidents;
-```
+\`\`\`
 
 ### Run Locally
-```bash
+\`\`\`bash
 npm run dev
-```
+\`\`\`
 Open [http://localhost:5173](http://localhost:5173)
 
 ### Import NCRB Data
-```bash
+\`\`\`bash
 node scripts/import-ncrb.js
-```
+\`\`\`
 
 ---
 
 ## ■ Project Structure
 
-```
+\`\`\`
 safemap-india/
 ├── src/
 │   ├── pages/
@@ -153,14 +160,14 @@ safemap-india/
 │   ├── generate-readme.js         # Auto README updater
 │   └── deploy.sh                  # Auto deploy script
 └── package.json
-```
+\`\`\`
 
 ---
 
 ## ■ Admin Dashboard
 
-- **URL:** `/admin` 
-- **Password:** Set via `ADMIN_PASSWORD` environment variable
+- **URL:** \`/admin\` 
+- **Password:** Set via \`ADMIN_PASSWORD\` environment variable
 - **Features:** Stats overview, reports table with verify/unverify, analytics charts, CSV export
 
 ---
@@ -210,4 +217,8 @@ MIT License — Free to use, modify, and distribute.
 
 *■■ SafeMap India — Making every street safer, one report at a time.*
 
-*Last updated: 26/4/2026, 12:18:47 pm IST*
+*Last updated: ${new Date().toLocaleString('en-IN', {timeZone:'Asia/Kolkata'})} IST*
+`
+
+fs.writeFileSync('README.md', readme)
+console.log('■ README.md generated!')

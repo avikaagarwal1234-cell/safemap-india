@@ -27,7 +27,7 @@ const LiveIndicator = ({ lastUpdated, incidentCount }) => {
   }, [lastUpdated]);
 
   return (
-    <div className="absolute top-4 left-4 z-[1000] bg-black/80 backdrop-blur-sm rounded-lg px-4 py-3 shadow-lg border border-green-500/30">
+    <div className="absolute top-4 left-4 z-[1000] bg-gray-800 rounded-lg px-4 py-3 shadow-lg border border-gray-600">
       <div className="flex items-center space-x-3">
         {/* Live indicator with pulsing dot */}
         <div className="flex items-center space-x-2">

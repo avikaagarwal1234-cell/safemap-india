@@ -37,13 +37,13 @@ const CustomMarker = ({ type, isNew = false, onClick }) => {
       {/* Outer glow effect */}
       <div 
         className="absolute inset-0 rounded-full opacity-30 animate-pulse"
-        style={{ backgroundColor: color }}
+        style={{ background: color }}
       />
       
       {/* Main marker circle */}
       <div 
         className="relative w-8 h-8 rounded-full flex items-center justify-center border-2 border-white shadow-lg"
-        style={{ backgroundColor: color }}
+        style={{ background: color }}
       >
         <span className="text-sm">{emoji}</span>
       </div>
@@ -63,8 +63,8 @@ const createCustomIcon = (type, isNew = false) => {
   
   const iconHtml = `
     <div class="custom-marker ${isNew ? 'animate-bounce' : ''}">
-      <div class="marker-glow" style="background-color: ${color}; opacity: 0.3;"></div>
-      <div class="marker-circle" style="background-color: ${color};">
+      <div class="marker-glow" style="background: ${color}; opacity: 0.3;"></div>
+      <div class="marker-circle" style="background: ${color};">
         <span class="marker-emoji">${emoji}</span>
       </div>
       ${isNew ? '<div class="new-indicator"></div>' : ''}
